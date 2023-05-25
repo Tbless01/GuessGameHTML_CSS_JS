@@ -1,0 +1,117 @@
+
+.mainContainer {
+    background-image: url(./../nubelson-fernandes--Xqckh_XVU4-unsplash.jpg);
+    width: 40%;
+    height: 0%;
+    margin-top: 10%;
+    margin-left: 20%;
+    padding-bottom: 3%;
+    background-color: rgb(80, 31, 80);
+    border: 8px solid rgb(175, 161, 135);
+    /* row-gap: 5%; */
+}
+
+.header {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+
+.topNav1 {
+    padding-left: 15%;
+}
+
+.outputText {
+    /* background-color: brown; */
+    margin-left: 18%;
+    /* margin-right: 43%; */
+    color: whitesmoke;
+    display: flex;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+#guess_but {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: antiquewhite;
+    margin-top: 89%;
+    margin-left: 10%;
+    background-color: black;
+    border: 3px solid rgb(184, 156, 156);
+    padding: 6% 25% 10% 20%;
+}
+
+#enterButton {
+    background-color: yellow;
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    height: 30px;
+    border-radius: 12px;
+    border-style: none;
+    margin-top: 10px;
+    margin-left: 4%;
+}
+
+#enterButton:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+#input {
+    color: black;
+    width: 350px;
+    height: 30px;
+    font-size: 17px;
+    /*border-style: none;*/
+    border: 2px solid black;
+    margin-left: 3%;
+    margin-top: 20px;
+}
+
+#input:hover {
+    background-color: rgb(214, 214, 204);
+}
+
+#input::placeholder {
+    padding-left: 4%;
+}
+
+.guess {
+    font-size: 23px;
+    margin-left: 23%;
+    color: aliceblue;
+}
+
+.playAndExit {
+    display: inline-block;
+    margin-left: 30%;
+    margin-top: 25%;
+}
+
+#againButton {
+    width: 100px;
+    height: 30px;
+}
+
+#exitGame {
+    width: 100px;
+    height: 30px;
+}
+
+#againButton:hover {
+    background-color: rgb(85, 54, 54);
+    color: antiquewhite;
+}
+
+#exitGame:hover {
+    background-color: rgb(85, 54, 54);
+    color: antiquewhite;
+}
